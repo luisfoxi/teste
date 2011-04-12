@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Bacen code:
+  = @country.bacen_code
+%p
+  %b Name:
+  = @country.name
+
+= link_to 'Edit', edit_country_path(@country)
+\|
+= link_to 'Back', countries_path

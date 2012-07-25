@@ -1,5 +1,6 @@
 Teste::Application.routes.draw do
   resources :countries
+# 21h23 master
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
